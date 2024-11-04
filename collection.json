@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "Sample Collection",
+    "_postman_id": "abcd1234",
+    "description": "A sample collection for Newman",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Sample Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts",
+          "protocol": "https",
+          "host": ["jsonplaceholder", "typicode", "com"],
+          "path": ["posts"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": []
+}
